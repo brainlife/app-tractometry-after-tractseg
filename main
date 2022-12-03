@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=4,walltime=0:30:00
+#PBS -l vmem=4gb
+#PBS -N tractometry
+#PBS -V
+
+set -x
+set -e
+
+echo "running tractometry on tensor (with precomputed tractseg output)"
+time singularity exec --nv -e docker://brainlife/tractseg:2.7 ./tractometry.sh
