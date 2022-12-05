@@ -1,9 +1,9 @@
 [![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/brain-life/abcd-spec)
 [![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.708-blue.svg)](https://doi.org/10.25663/brainlife.app.708)
 
-# app-example-documentation
+# app-tractometry-after-tractseg
 This App compute tractometry on the TractSeg output. For each tract available from the segmentation, the App computes the tract profile using 
-the value of the tensor, specifically FA, MD, RD, and AD.
+the values of the tensor, specifically FA, MD, RD, and AD.
 
 ### Authors
 - Giulia Berto
