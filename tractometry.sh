@@ -6,7 +6,7 @@ echo "running Tractometry"
 TOM_trackings=`jq -r '.TOM_trackings' config.json`
 endings_segmentations=`jq -r '.endings_segmentations' config.json`
 
-fa=`jq -r '.fa' config.json` fa.nii.gz
+fa=`jq -r '.fa' config.json`
 
 if [ -f $fa ]; then
 
@@ -31,5 +31,6 @@ if [ -f $fa ]; then
     done
 
 else
+    echo ""
     #TO DO: add code for spherical means
 fi    
