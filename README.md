@@ -2,7 +2,7 @@
 [![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.708-blue.svg)](https://doi.org/10.25663/brainlife.app.708)
 
 # app-tractometry-after-tractseg
-This App compute tractometry on the TractSeg output. For each tract available from the segmentation, the App computes the tract profile using 
+This App computes tractometry on the TractSeg output. For each tract available from the segmentation, the App computes the tract profile using 
 the values of the tensor, specifically FA, MD, RD, and AD.
 
 ### Authors
